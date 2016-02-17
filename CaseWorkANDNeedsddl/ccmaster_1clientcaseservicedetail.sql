@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `1clientcaseservicedetail`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `1clientcaseservicedetail` (
-  `idClientCaseServiceDetail` int(11) NOT NULL,
+  `idClientCaseServiceDetail` int(11) NOT NULL AUTO_INCREMENT,
   `idClientCaseDetail` int(11) NOT NULL,
   `CaseServiceTime` time NOT NULL COMMENT 'Amount of time spent on this Service for this client',
   `CaseServiceDate` datetime NOT NULL COMMENT 'Date & Time that this time was stated',
